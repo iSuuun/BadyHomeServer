@@ -10,7 +10,7 @@ app.use("/scripts", express.static(__dirname + "/node_modules/"));
 
 var routes = require("./routes/routes.js")(app);
 
-server.listen(3000, function(){
+/*server.listen(3000, function(){
 	console.log("Listening on port %s...", server.address().port);
 });
 
@@ -18,4 +18,4 @@ io.on("connection", function(socket){
 	socket.on("chat_message", function(msg){
 		io.emit("chat_message", msg);
 	});
-});
+});*/
